@@ -2,6 +2,9 @@
 # https://superuser.com/questions/320065/bashrc-not-sourced-in-iterm-mac-os-x/320068
 export BASH_CONF="~/.bash_profile"
 
+export HISTSIZE=10000000
+export HISTFILESIZE=10000000
+
 # Paths
 ## Brew
 export PATH="/usr/local/sbin:$PATH"
